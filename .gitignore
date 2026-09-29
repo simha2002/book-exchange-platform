@@ -1,0 +1,32 @@
+# Laravel
+backend/.env
+backend/vendor/
+backend/node_modules/
+
+# Node
+frontend/node_modules/
+node_modules/
+
+# Build files
+backend/public/build/
+frontend/dist/
+dist/
+
+# Laravel storage
+backend/storage/*.key
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*.php
+
+# IDE
+.vscode/
+!.vscode/settings.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SQLite (use MySQL instead)
+backend/database/database.sqlite
